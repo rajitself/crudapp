@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEEEA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="32dp"
+            android:text="REGISTER"
+            android:textStyle="bold"
+            android:textSize="48sp"
+            android:textColor="#096B68" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EMAIL"
+            android:textSize="18sp"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-medium" />
+
+        <EditText
+            android:id="@+id/edEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_email"
+            android:textColor="#6A5E5E"
+            android:textColorHint="#6A5E5E"
+            android:padding="12dp"
+            android:backgroundTint="#90D1CA"
+            android:fontFamily="sans-serif"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PASSWORD"
+            android:textSize="18sp"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-medium" />
+
+        <EditText
+            android:id="@+id/edPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_password"
+            android:textColor="#6A5E5E"
+            android:textColorHint="#6A5E5E"
+            android:paddingTop="12dp"
+            android:backgroundTint="#90D1CA"
+            android:fontFamily="sans-serif" />
+
+        <TextView
+            android:id="@+id/password_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password must be at least 8 characters and include:\n• Uppercase\n• Lowercase\n• Digit\n• Special character (!@#...)\n• No repeating characters"
+            android:textColor="#666666"
+            android:textSize="12sp"
+            android:paddingBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:backgroundTint="#096B68"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+</ScrollView>

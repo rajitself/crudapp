@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "498257626819",
+    "project_id": "mark10-bda42",
+    "storage_bucket": "mark10-bda42.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498257626819:android:992230f6b4c8c796c94476",
+        "android_client_info": {
+          "package_name": "com.example.mark10"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp3N15biWj1paAhABXrXmgTPvOxXif2B0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Mark10" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#16423C</item>
+        <item name="colorPrimaryContainer">#6A9C89</item>
+        <item name="android:colorBackground">#16423C</item>
+        <item name="android:textColor">#06202B</item>
+        <item name="android:statusBarColor">#16423C</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.Mark10" parent="Base.Theme.Mark10" />
+</resources>
