@@ -25,18 +25,7 @@ UI: XML Layouts, Material Design
 
 IDE: Android Studio
 
-📸 Screenshots
-Make sure to create a screenshots/ folder in your repo and add the images with the filenames below:
 
-screenshots/Screenshot_20250620-213240.png (Login Screen)
-
-screenshots/Screenshot_20250620-213248.png (Register Screen)
-
-screenshots/Screenshot_20250620-213407.png (Main CRUD List View)
-
-screenshots/Screenshot_20250620-213413.png (Edit Dialog)
-
-screenshots/Screenshot_20250620-213429.png (Delete Confirmation)
 
 🔧 How to Run
 Clone this repository
@@ -58,4 +47,5 @@ Rahul Raj
 📧 rahulrajitself@gmail.com
 🔗 LinkedIn
 🔗 GitHub
+
 
